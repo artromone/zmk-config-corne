@@ -95,14 +95,5 @@
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
-
-        layer_3 {
-            bindings = <
-&kp N1  &kp LCTRL  &kp LCTRL  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
