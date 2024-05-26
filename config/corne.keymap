@@ -12,10 +12,14 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
+        escape_on_jk {
             bindings = <&kp ESC>;
+            key-positions = <19 20>;
+        };
+
+        win {
+            bindings = <&kp LGUI>;
+            key-positions = <37 40>;
         };
     };
 
@@ -62,7 +66,7 @@
 &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LCTRL  &kp A  &kp S  &kp D  &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                         &mo 2  &mo 1  &kp SPACE    &kp RET  &mo 3  &kp ESC
+                         &mo 2  &mo 1  &kp SPACE    &kp RET  &mo 3  &kp LALT
             >;
         };
 
@@ -74,10 +78,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LCTRL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6     &kp N7    &kp N8   &kp N9         &kp N0        &kp DEL
-&trans     &trans  &trans  &trans  &trans  &trans       &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT      &kp LG(LGUI)  &trans
-&trans     &trans  &trans  &trans  &trans  &trans       &kp PG_UP  &kp HOME  &kp END  &kp PAGE_DOWN  &trans        &trans
-                           &trans  &trans  &kp SPACE    &kp RET    &kp LALT  &trans
+&kp LCTRL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6     &kp N7    &kp N8   &kp N9         &kp N0  &kp DEL
+&trans     &trans  &trans  &trans  &trans  &trans       &kp LEFT   &kp DOWN  &kp UP   &kp RIGHT      &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans       &kp PG_UP  &kp HOME  &kp END  &kp PAGE_DOWN  &trans  &trans
+                           &trans  &trans  &kp SPACE    &kp RET    &trans    &trans
             >;
         };
 
