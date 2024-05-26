@@ -90,8 +90,8 @@
 
             bindings = <
 &trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ASTERISK  &kp BSPC
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BSLH      &kp GRAVE
-&trans  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE      &kp TILDE
+&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BSLH      &kp TILDE
+&trans  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE      &kp GRAVE
                           &trans    &trans    &kp SPACE    &kp RET    &trans     &trans
             >;
         };
