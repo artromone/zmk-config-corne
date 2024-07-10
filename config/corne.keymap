@@ -48,9 +48,6 @@
     };
 
     macros {
-    };
-
-    macros {
         uc_dash: uc_dash {
             label = "UNICODE_DASH";
             compatible = "zmk,behavior-macro";
