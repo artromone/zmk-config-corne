@@ -92,9 +92,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LCTRL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6    &kp N7     &kp N8     &kp N9     &kp N0   &kp DEL
-&trans     &trans  &trans  &trans  &trans  &trans       &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ESC  &trans
-&trans     &trans  &trans  &trans  &trans  &trans       &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans   &trans
+&kp LCTRL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp N6    &kp N7     &kp N8     &kp N9     &kp N0  &kp DEL
+&trans     &trans  &trans  &trans  &trans  &trans       &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans       &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
                            &trans  &trans  &kp SPACE    &kp RET   &trans     &trans
             >;
         };
@@ -116,7 +116,7 @@
 
         layer_3 {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5       &kp F6         &kp F7      &kp F8          &kp F9      &kp F10     &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5       &kp F6         &kp F7      &kp F8          &kp F9      &kp F10     &kp ESC
 &trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15      &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)      &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
 &trans  &trans   &trans   &trans   &trans   &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)      &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
                           &trans   &trans   &kp SPACE    &kp ENTER      &trans      &bt BT_CLR_ALL
