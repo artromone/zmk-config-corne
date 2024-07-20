@@ -66,8 +66,6 @@
         };
     };
 
-    ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)
-
     keymap {
         compatible = "zmk,keymap";
 
