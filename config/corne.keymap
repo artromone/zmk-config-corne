@@ -85,10 +85,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(LS(S))  &kp N1  &kp N2  &kp N3     &kp N4     &kp N5           &kp N6        &kp N7        &kp N8      &kp N9         &kp N0            &kp DEL
-&kp LG(R)      &trans  &trans  &kp LC(C)  &kp LC(V)  &kp PG_UP        &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &kp LEFT_CONTROL  &kp LG(E)
-&kp QUESTION   &trans  &trans  &kp HOME   &kp END    &kp PAGE_DOWN    &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp LG(RIGHT)  &kp LG(W)         &kp LG(S)
-                               &none      &none      &kp SPACE        &kp RET       &kp LSHFT     &trans
+&kp LG(LS(S))  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
+&kp LG(R)      &trans           &kp PG_UP        &kp C            &kp V            &trans             &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
+&trans         &trans           &kp PG_DN        &kp HOME         &kp END          &trans             &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp LG(W)         &kp LG(S)
+                                                 &none            &none            &kp SPACE          &kp RET          &kp LSHFT        &trans
             >;
         };
 
