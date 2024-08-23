@@ -86,9 +86,9 @@
 
             bindings = <
 &kp LG(LS(S))  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
-&kp LG(R)      &trans           &kp PG_UP        &kp C            &kp V            &trans             &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
+&kp LG(R)      &trans           &kp PG_UP        &kp LC(C)        &kp LC(V)        &trans             &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
 &trans         &trans           &kp PG_DN        &kp HOME         &kp END          &trans             &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp LG(W)         &kp LG(S)
-                                                 &none            &none            &kp SPACE          &kp RET          &kp LSHFT        &trans
+                                                 &none            &none            &kp SPACE          &kp RET          &kp LSHFT        &kp LS(LWIN)
             >;
         };
 
