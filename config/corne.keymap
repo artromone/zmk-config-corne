@@ -9,7 +9,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        clear_all_profiles {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <40 0 24>;
+        };
+    };
 
     behaviors {
         ss_hs_modmorph: ss_hs_modmorph {
@@ -109,10 +116,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5       &kp F6         &kp F7      &kp F8          &kp F9      &kp F10     &kp ESC
-&trans  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)      &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
-&trans  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)      &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-                              &kp LWIN   &kp LG(D)  &kp SPACE    &kp ENTER      &trans      &bt BT_CLR_ALL
+&none   &kp F1  &kp F2  &kp F3    &kp F4     &kp F5       &kp F6         &kp F7      &kp F8      &kp F9      &kp F10     &kp ESC
+&trans  &trans  &trans  &trans    &trans     &trans       &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
+&none   &trans  &trans  &trans    &trans     &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
+                        &kp LWIN  &kp LG(D)  &kp SPACE    &kp ENTER      &trans      &trans
             >;
         };
     };
