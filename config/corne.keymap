@@ -92,10 +92,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PRINTSCREEN  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4         &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
-&trans           &trans           &kp PG_UP        &kp LC(C)        &kp LC(V)               &kp LG(R)            &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
-&trans           &trans           &kp PG_DN        &kp LG(MINUS)    &kp LG(LS(UNDERSCORE))  &kp LG(LS(MINUS))    &kp HOME         &kp LG(LEFT)     &kp LG(DOWN)     &kp END          &kp LG(S)         &kp LG(W)
-                                                   &none            &none                   &kp SPACE            &kp RET          &kp LSHFT        &kp LS(LWIN)
+&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4         &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
+&trans  &kp LG(R)        &kp PG_UP        &kp LC(C)        &kp LC(V)               &kp PRINTSCREEN      &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
+&trans  &trans           &kp PG_DN        &kp LG(MINUS)    &kp LG(LS(UNDERSCORE))  &kp LG(LS(MINUS))    &kp HOME         &kp LG(LEFT)     &kp LG(DOWN)     &kp END          &kp LG(S)         &kp LG(W)
+                                          &none            &none                   &kp SPACE            &kp RET          &kp LSHFT        &kp LS(LWIN)
             >;
         };
 
@@ -119,7 +119,7 @@
 &none   &kp F1  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6         &kp F7      &kp F8      &kp F9      &kp F10     &kp ESC
 &trans  &trans  &trans  &trans      &trans     &trans       &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
 &none   &trans  &trans  &trans      &trans     &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-                        &kp LSHIFT  &kp LG(D)  &kp SPACE    &kp ENTER      &trans      &trans
+                        &kp LSHIFT  &kp LG(D)  &kp SPACE    &kp ENTER      &none       &none
             >;
         };
     };
