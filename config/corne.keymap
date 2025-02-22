@@ -73,10 +73,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4         &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
-&trans  &kp LG(R)        &kp PG_UP        &kp LC(C)        &kp LC(V)               &kp PRINTSCREEN      &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
-&trans  &kp LS(LG(E))    &kp PG_DN        &kp LG(MINUS)    &kp LG(LS(UNDERSCORE))  &kp LG(LS(MINUS))    &kp HOME         &kp LG(LEFT)     &kp LG(DOWN)     &kp END          &kp LG(S)         &kp LG(W)
-                                          &none            &none                   &trans               &trans           &kp LSHFT        &kp INS
+&kp LA(TAB)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4         &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
+&trans       &kp LG(R)        &kp PG_UP        &kp LC(C)        &kp LC(V)               &kp PRINTSCREEN      &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
+&trans       &kp LS(LG(E))    &kp PG_DN        &kp LG(MINUS)    &kp LG(LS(UNDERSCORE))  &kp LG(LS(MINUS))    &kp HOME         &kp LG(LEFT)     &kp LG(DOWN)     &kp END          &kp LG(S)         &kp LG(W)
+                                               &none            &none                   &trans               &trans           &kp LSHFT        &kp INS
             >;
         };
 
@@ -89,8 +89,8 @@
 
             bindings = <
 &kp QMARK  &kp EXCL   &kp AT          &kp HASH        &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LBRC          &kp RBRC           &kp ASTERISK  &kp BSPC
-&kp COLON  &kp GRAVE  &kp LG(LA(N1))  &kp LG(LA(N2))  &kp PIPE  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LPAR          &kp RPAR           &kp BSLH      &trans
-&kp SQT    &trans     &trans          &trans          &trans    &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans
+&kp COLON  &kp GRAVE  &kp LG(LA(N1))  &kp LG(LA(N2))  &kp PIPE  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LPAR          &kp RPAR           &kp BSLH      &kp PG_UP
+&kp SQT    &trans     &trans          &trans          &trans    &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &kp PG_DN
                                       &none           &none     &trans       &trans     &trans     &trans
             >;
         };
