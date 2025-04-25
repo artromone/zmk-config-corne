@@ -74,7 +74,7 @@
 
             bindings = <
 &kp LA(TAB)  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4         &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0   &kp DEL
-&trans       &kp LG(R)        &kp PG_UP        &kp LC(C)        &kp LC(V)               &kp PRINTSCREEN      &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
+&trans       &kp LG(R)        &kp PG_UP        &kp LC(LS(C))    &kp LC(LS(V))           &kp PRINTSCREEN      &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp LEFT_CONTROL  &kp LG(E)
 &trans       &kp LS(LG(E))    &kp PG_DN        &kp LG(MINUS)    &kp LG(LS(UNDERSCORE))  &kp LG(LS(MINUS))    &kp HOME         &kp LG(LEFT)     &kp LG(DOWN)     &kp END          &kp LG(S)         &kp LG(W)
                                                &none            &none                   &trans               &trans           &kp LSHFT        &kp INS
             >;
