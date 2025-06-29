@@ -74,9 +74,9 @@
 
             bindings = <
 &kp LG(MINUS)           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp DEL
-&kp LG(LS(UNDERSCORE))  &kp LEFT_SHIFT   &kp PG_UP        &kp LC(C)        &kp LC(V)        &kp LG(R)          &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME         &none
-&kp LG(LS(MINUS))       &kp LS(LG(E))    &kp PG_DN        &kp LG(E)        &kp LG(S)        &kp LG(W)          &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp LG(END)      &none
-                                                          &none            &none            &trans             &trans           &kp LSHFT        &kp INS
+&kp LG(LS(UNDERSCORE))  &kp LEFT_SHIFT   &kp LG(LS(S))    &kp LC(C)        &kp LC(V)        &kp LG(R)          &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME         &trans
+&kp LG(LS(MINUS))       &kp LS(LG(E))    &trans           &kp LG(E)        &kp LG(S)        &kp LG(W)          &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp END          &trans
+                                                          &trans           &trans           &trans             &trans           &trans           &trans
             >;
         };
 
@@ -88,19 +88,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp QMARK  &kp EXCL   &kp AT          &kp HASH        &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LBRC          &kp RBRC           &kp ASTERISK  &kp BSPC
-&kp COLON  &kp GRAVE  &kp LG(LA(N1))  &kp LG(LA(N2))  &kp PIPE  &kp TILDE    &kp MINUS  &kp EQUAL  &kp LPAR          &kp RPAR           &kp BSLH      &kp PG_UP
-&kp SQT    &trans     &trans          &trans          &trans    &trans       &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &kp PG_DN
-                                      &none           &none     &trans       &trans     &trans     &trans
+&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp LBRC          &kp RBRC           &kp ASTERISK  &kp GRAVE
+&kp F1  &kp F2    &kp F3  &kp F4    &kp F5    &kp F6       &kp MINUS  &kp EQUAL  &kp LPAR          &kp RPAR           &kp BSLH      &kp COLON
+&kp F7  &kp F8    &kp F9  &kp F10   &kp F11   &kp F12      &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE     &kp QUESTION
+                          &trans    &trans    &trans       &trans     &trans     &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&none   &kp F1  &kp F2  &kp F3      &kp F4     &kp F5       &kp F6         &kp F7      &kp F8      &kp F9      &kp F10     &kp ESC
+&trans  &trans  &trans  &trans      &trans     &trans       &trans         &trans      &trans      &trans      &trans      &kp ESC
 &trans  &trans  &trans  &trans      &trans     &trans       &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
-&none   &trans  &trans  &trans      &trans     &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-                        &kp LSHIFT  &kp LG(D)  &kp SPACE    &kp ENTER      &none       &none
+&trans  &trans  &trans  &trans      &trans     &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
+                        &kp LSHIFT  &kp LG(D)  &kp SPACE    &kp ENTER      &trans      &trans
             >;
         };
     };
