@@ -97,10 +97,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans      &trans     &trans       &trans         &trans      &trans      &trans      &trans      &kp ESC
-&trans  &trans  &trans  &trans      &trans     &trans       &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
-&trans  &trans  &trans  &trans      &trans     &trans       &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-                        &kp LSHIFT  &kp LG(D)  &kp SPACE    &kp ENTER      &trans      &trans
+&trans  &trans  &trans  &trans      &trans     &trans    &trans         &trans      &trans      &trans      &trans      &kp ESC
+&trans  &trans  &trans  &trans      &trans     &trans    &kp LG(ENTER)  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)
+&trans  &trans  &trans  &trans      &trans     &trans    &kp LG(LS(Q))  &kp LG(N6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
+                        &kp LSHIFT  &kp LG(D)  &trans    &trans         &trans      &trans
             >;
         };
     };
