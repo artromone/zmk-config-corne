@@ -73,10 +73,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(MINUS)      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp DEL
-&kp LG(LS(SPACE))  &kp LEFT_SHIFT   &kp LG(LS(S))    &kp LC(C)        &kp LC(V)        &kp LG(R)          &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME         &trans
-&trans             &trans           &trans           &kp LG(E)        &kp LG(S)        &kp LG(W)          &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp END          &trans
-                                                     &trans           &trans           &trans             &trans           &trans           &trans
+&kp LA(TAB)    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp DEL
+&kp LG(LS(V))  &kp LEFT_SHIFT   &kp LG(LS(S))    &kp LC(C)        &kp LC(V)        &kp LG(R)          &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME         &kp LG(MINUS)
+&trans         &trans           &trans           &kp LG(E)        &kp LG(S)        &kp LG(W)          &kp LG(LEFT)     &kp LG(DOWN)     &kp LG(UP)       &kp LG(RIGHT)    &kp END          &kp LG(LS(SPACE))
+                                                 &trans           &trans           &trans             &trans           &trans           &trans
             >;
         };
 
